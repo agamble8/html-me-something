@@ -3,14 +3,18 @@
 <html>
    <head>
       <title>Projects Projects Projects</title>
-   </head>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="styles.css">
+      <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet'>
+    </head>
 
    <body>
+
     <header>
         <h1>Amy Makes Things</h1>
-        <div class = "topnav">
-            <!-- <a class="active" href="#home">Home</a> -->
-            <a href="#homeimprovement">Home Improvement</a>
+        <div id="navbar">
+            <a href="#house">House & Decorating</a>
             <a href="#shirts">Shirts</a>
             <a href="#glass">Stained Glass</a>
             <a href="#crochet">Crochet</a>
@@ -18,185 +22,221 @@
         </div>
     </header>
 
-    <main>
+
+    <main class="content">
         <article>
-            <section>
-                <a name="homeimprovement"></a>
-                <h2>Home Improvement Projects</h2>
-                <p>No matter how many things I fix or make or re-do in my house there's 
+            <section> 
+                <h2>House & Decorating Projects<a name="house"></a></h2>
+                <p class="projtype">No matter how many things I fix or make or re-do in my house there's 
                     always something else to do. Some of the projects are boring but useful 
                     (new hot water heater, I'm looking at you). But some I enjoy more, 
                     both for the process of making and the process of using.</p>
-                <h3>Lamp Update</h3>
-                    <p>This ugly little brass guy was $3.99 at the thrift store. It got:</p>
-                    <ul>
+                    <p id="photo_inst">***mouse over images for enlarged view***</p>
+                <div class="color1">
+                    <h3>Lamp Refresh</h3>
+                    <p>This ugly little brass guy was $3.99 at the thrift store. It was destined for the guest room, but needed a makeover first. It got:</p>
+                    <ul id="list">
                         <li>Base plate removed and glued back on (no more tape!)</li>
                         <li>Rust sanded off</li>
                         <li>Coat of primer</li>
                         <li>2 coats of spray paint</li>
                         <li>Shiny polycrylic finish</li>
-                        <li>New shade (which is way too small, still looking for something bigger but affordable)</li>
+                        <li>New shade (which is a little too small, still looking for something bigger but affordable)</li>
                     </ul>
                     <figure>
-                        <img src="images/lamp1.jpg" alt="Lamp before paint.">
-                        <figcaption>Ugly thrift store lamp, destined for the guest room</figcaption>
-                        <img src="images/lamp2.jpg" alt="Damage at the base of lamp.">
-                        <figcaption>Held together with tape</figcaption>
-                        <img src="images/lamp3.jpg" alt="Damage at the base of lamp.">
-                        <figcaption>Afterward!</figcaption>
+                        <img src="images/lamp_collage.jpg" class="collage" alt="collage of pantry process">
+                        <figcaption>Lamp progress before and after</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Pantry Shelves</h3>
-                    <p>I've wanted to do this project for so many years! This pantry is deep but only had one full-depth shelf and one sliding drawer at the bottom before.
+                    <p>I've wanted to do this project for so many years, ever since I moved into my current house. This pantry is deep but only had one full-depth shelf and one sliding drawer at the bottom before.
                     I made a whole new set of sliding shelves so you can actually see what's in it and use all the space efficiently.</p>
+                    <ol id="list">
+                        <li>Measuring and reinforcing the right side so the screws don't go through the wall and the drawer will pass the hinges</li>
+                        <li>Installing the sliding rails</li>
+                        <li>Painting the 3 new boxes after assembly</li>
+                        <li>First drawer box fit. Oops, the middle two are very not level!</li>
+                        <li>After sliders were re-leveled and all 4 drawers installed!</li>
+                    </ol>
                     <figure>
-                        <img src="images/pantry1.jpg" alt="Empty pantry before new shelves.">
-                        <figcaption>Measuring and reinforcing the right side so the screws don't go through the wall and the drawer will pass the hinges</figcaption>
-                        <img src="images/pantry2.jpg" alt="Installing shelf rails.">
-                        <figcaption>Installing the sliding  rails</figcaption>
-                        <img src="images/pantry3.jpg" alt="Drawer boxes being painted">
-                        <figcaption>Painting the 3 new boxes after assembly</figcaption>
-                        <img src="images/pantry4.jpg" alt="Drawers being placed">
-                        <figcaption>First drawer box fit. Oops, the middle two are very not level!</figcaption>
-                        <img src="images/pantry5.jpg" alt="Pantry with all 4 drawers nstalled">
-                        <figcaption>After sliders were re-leveled and all 4 drawers installed!</figcaption>
+                        <img src="images/pantry_collage.jpg" class="collage" alt="collage of pantry process">
+                        <figcaption>Pantry progress</figcaption>
                     </figure>
+                </div>
+                <div class="color1">
+                    <h3>Back Porch Refinish</h3>
+                    <p>My covered back porch floor was all chipping paint that I'm not sure was ever attractive to begin with. This is the (still ongoing) project to scrape, sand and pressure wash it clean so it can be refinished.</p>
+                    <figure>
+                        <img src="images/porch_collage.jpg" class="collage" alt="pegboard on wall">
+                        <figcaption>It's a total mess, but getting closer to being ready</figcaption>
+                    </figure>
+                </div>
+                <div class="color2">
                 <h3>Basement Tool Storage</h3>
-                    <p>I wish I had a better 'before' picture of this because it was quite the disorganized mess. Since quarantine I finally got around to
+                    <p>I wish I had a better &quot;before&quot; picture of this because it was quite the disorganized mess. Since quarantine I finally got around to
                     buying and hanging some pegboard for my tools in the basement.</p>
                     <figure>
                         <img src="images/tool_pegboard.jpg" alt="pegboard on wall">
                         <figcaption>New 4x8 pegboard with a pile of tools under it awaiting hanging</figcaption>
                     </figure>
+                </div>
+                <div class="color1">
                 <h3>Office Pegboard</h3>
-                    <figure>
                         <p>I liked the basement pegboard so much that I used some extra to hang by my desk in my offce. It's about 18x18 and fills a previously blank wall.
                         It was too utilitarian so I added a little vinyl decal as decoration.</p>
+                        <figure>
                         <img src="images/office_pegboard.jpg" alt="pegboard in office">
-                        <figcaption>Now I just need to hang up all my office junk</figcaption>
+                        <figcaption>Not pictured: all the different office detritus I need to hang up</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Upholstered Headboard</h3>
+                <p>I made this from scratch for my fiance&#769;'s guest bedroom. It's plywood with holes drilled in it, covered with egg crate foam and fabric. The buttons are made with washer and bolts, covered with fabric and padding. They are put through the holes in the plywood and attached with nuts on the back. There are pine legs that attach to the back of the headboard and the bed frame. This is the sixth headboard I've made with different methods and it's the best method, in terms of looks and sturdiness.</p>
                     <figure>
-                        <p>I made this from scratch for my fiance&#769;'s guest bedroom. It's plywood with holes drilled in it, covered with egg crate foam and fabric. The buttons are made with washer and bolts, covered with fabric and padding. They are put through the holes in the plywood and attached with nuts on the back. There are pine legs that attach to the back of the headboard and the bed frame. This is the sixth headboard I've made with different methods and it's the best method, in terms of looks and sturdiness.</p>
                         <img src="images/brown_headboard1.jpg" alt="fabric upholstered headboard">
                         <figcaption>After making so many I think I have the hang of it. Looks good and it's comfortable!</figcaption>
                     </figure>
+            </div>
             </section>
             <section>
-                <a name="Shirts"></a>
-                <h2>Shirts and Other Wearables</h2>
-                <p>This year I bought a Cricut cutting machine, which can cut out images based on .svg files. Not going to lie, I don't design my own cut files (yet).
+                <h2>Shirts and Other Wearables<a name="shirts"></a></h2>
+                <p class="projtype">This year I bought a Cricut cutting machine, which can cut out images based on .svg files. Not going to lie, I don't design my own cut files (yet).
                 I get them from free sites online or purchase from professional designers. The Cricut software lets you import your image files, customize, resize, etc.
                 Then it cuts them from whatever material you choose. I primarly use HTV (heat transfer vinyl) for shirts and regular adhesive vinyl for decals, but it 
                 can also cut fabric, cardstock and many other materials as well. After it's cut I iron the patterns onto various fabric items.</p>
+                <div class="color1">
                 <h3>Baby Onesies</h3>
                     <p>There are SO MANY cute baby ideas:</p>
                     <figure>
-                        <img src="images/onesie_unicorn.jpg" alt="unciorn onesie">
-                        <figcaption>Gift for a friend's new baby girl</figcaption>
-                        <img src="images/onesies_hc.jpg" alt="two onesies with college logos">
-                        <figcaption>Baby's mom went to Hiram College in Ohio and has ALL the Bulldogs gear</figcaption>
-                        <img src="images/onesie_superman.jpg" alt="superman onesie">
-                        <figcaption>Gift for another baby whose name starts with an &quot;S&quot;</figcaption>
-                        <img src="images/onesies_seuss.jpg" alt="two onesies with hats">
-                        <figcaption>For some twins born this spring, with coordinating blue hats!</figcaption>
+                        <img src="images/onesies.jpg" class="collage" alt="baby onesies in different patters">
+                        <figcaption>Gifts for friends' and familys' new babies</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Shirts</h3>
-                    <p>There are tons of other fun things to make besides baby wear though!</p>
+                    <p>There are tons of other fun things to make besides baby wear though! My friends and family are going to be sick of getting shirts as gifts soon.</p>
                     <figure>
                         <img src="images/llama_shirt1.jpg" alt="social distance llama">
                         <figcaption>Birthday gift for best friend right after the pandemic hit</figcaption>
+                    </figure>
+                
+                    <figure class="color1">
                         <img src="images/llama_shirt2.jpg" alt="another social distace llama">
-                        <figcaption>My boss saw a picture of the shirt I made my friend and wanted them for his whole family (the run a llama farm), that's his own actual llama in this pic</figcaption>
+                        <figcaption>My boss saw a picture of the shirt I made my friend and wanted them for his whole family (the run a llama farm), featuring his own actual llama</figcaption>
+                    </figure>
+                    <figure class="color2">
                         <img src="images/mermaid_shirt.jpg" alt="pinup mermaid shirt">
                         <figcaption>Swimsuit coverup for a friend</figcaption>
-                        <img src="images/starfleet_shirt.jpg" alt="star trek starfleet shirt">
-                        <figcaption>Made myself a Star Trek shirt with materials I just had lying around (which is why the colors are weird)</figcaption>
-                        <img src="images/bb_shirt.jpg" alt="big brother shirt">
-                        <figcaption>A big brother tshirt for my son (he got new half brothers on his dad's side)</figcaption>
-                        <img src="images/bb_shirt2.jpg" alt="big brother shirt">
-                        <figcaption>A big brother tshirt for my son (he got new half brothers on his dad's side)</figcaption>
                     </figure>
+                    <figure class="color1">
+                        <img src="images/starfleet_shirt.jpg" alt="star trek starfleet shirt">
+                        <figcaption>Made myself a Star Trek shirt with materials I just had lying around</figcaption>
+                    </figure>
+                    <figure class="color2">
+                        <img src="images/owl_shirt.jpg" alt="superb owl_shirt">
+                        <figcaption>My version of a Superbowl shirt because I could not care less about the actual superbowl</figcaption>
+                    </figure>
+                    <figure class="color1">
+                        <img src="images/bb_shirt_collage.png" class="collage" alt="big brother shirt">
+                        <figcaption>A big brother tshirt for my son (he got new twin half brothers on his dad's side)</figcaption>
+                    </figure>
+                </div>
             </section>
             <section>
-                <a name="glass"></a>
-                <h2>Stained Glass Projects</h2>
-                <p>Recently I haven't done as much stained glass because it requires long stretches of time to sit down and focus. I do love it and these were fun pieces to make.</p>
-                <h3>Trogdor the Burninator</h3>
-                    <p>Christmas gift for my brother based on an internet video</p>
+                <h2>Stained Glass Projects<a name="glass"></a></h2>
+                <p class="projtype">Recently I haven't done as much stained glass work because it requires long stretches of time to sit down and focus. I do love it and these were fun pieces to make.</p>
+                <div class="color1">
+                    <h3>Trogdor the Burninator</h3>
+                    <p>Christmas gift for my brother based on an internet video. <a href="https://www.youtube.com/watch?v=90X5NJleYJQ">Link </a>if you're curious</p>
                     <figure>
-                        <img src="images/trogdor1.jpg" alt="dinosaur stained glass pieces">
-                        <figcaption>Pieces after being cut but before foiling/soldering</figcaption>
-                        <img src="images/trogdor2.jpg" alt="dinosaur stained glass finished">
-                        <figcaption>Completed Trogdor</figcaption>
+                        <img src="images/trogdor_collage.png" class="collage" alt="dinosaur stained glass pieces">
+                        <figcaption>Piece before soldering and after</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Letter H Glass</h3>
                     <p>This was a Father's Day gift for my dad, the H is for their surname. Much of this glass was textured and I had a hard time getting the textures to flow correctly.</p>
                     <figure>
-                        <img src="images/h_glass1.jpg" alt="H stained glass peices">
-                        <figcaption>Getting the middle pieces cut, some of these were very challenging curves!</figcaption>
-                        <img src="images/h_glass2.jpg" alt="H glass adding border">
-                        <figcaption>Adding the contrasting color border</figcaption>
-                        <img src="images/h_glass3.jpg" alt="Hglass complete">
+                        <img src="images/h_collage.jpg" class="collage" alt="H stained glass peices">
                         <figcaption>Tried out a copper patina on the finished piece. My dad eventually made a wood frame for it as well</figcaption>
                     </figure>
+                </div>
             </section>
             
             <section>
-                <a name="crochet"></a>
-                <h2>Crochet Projects</h2>
-                <p>My mom taught me to crochet when I was little and I came back to in in college after many years. Now it's one of my favorite things when I want to do something with my hands and also watch tv.</p>
+                <h2>Crochet Projects<a name="crochet"></a></h2>
+                <p class="projtype">My mom taught me to crochet when I was little and I came back to in in college after many years. Now it's one of my favorite things when I want to do something with my hands and also watch tv.</p>
+                <div class="color1">
                 <h3>Shell Bookmarks</h3>
                     <figure>
                         <img src="images/bookmarks.jpg" alt="crochet shell bookmarks">
-                        <figcaption>About 6 inches&nbspx&nbsp1.5 inches and they make in less than an hour! Still need to weave the ends in (don't judge)</figcaption>
+                        <figcaption>About 6 inches&nbspx&nbsp1.5 inches and they make in less than an hour! Still need to weave in the loose end (don't judge)</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Harry Potter Amigurumi</h3>
                     <figure>
                         <img src="images/crochet_hp.jpg" alt="crochet Harry Potter">
                         <figcaption>Made from a kit and one of the hardest things I've ever crocheted!</figcaption>
                     </figure>
+                </div>
+                <div class="color1">
                 <h3>Winter Hat</h3>
                     <figure>
                         <img src="images/hat.jpg" alt="crochet grey cable stitch hat">
                         <figcaption>Made something for myself with yarn that I was gifted for Christmas last year</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Matching Cleveland Cavaliers Hats</h3>
                     <p>Gifts for my fiance&#769;'s father and nephew, they are big Cavs fans.</p>
                     <figure>
                         <img src="images/hats.jpg" alt="crochet adult and baby hats">
                         <figcaption>Cutest pair!</figcaption>
                     </figure>
+                </div>
+                <div class="color1">
                 <h3>Fall Pumpkin</h3>
-                    <p>Freehanded from an image I saw on Pinterest, I've made several more since this one.</p>
+                    <p>Freehanded from an image I saw on Pinterest, I've made several more since this one. My son unfortunately sees these more as ammo to throw at people than the cute decorations I envisioned.</p>
                     <figure>
                         <img src="images/crochet_pumpkin.jpg" alt="crochet yellow pumpkin">
-                        <figcaption>My son unfortunately sees these more as ammo to throw at people than the cute decorations I envisioned</figcaption>
+                        <figcaption>100% wool yarn and super cute</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Stuffed Whale</h3>
+                <p><a href="1dogwoof.com/humpback-whale-crochet-pattern/">Pattern</a> from a cool website called 1DogWoof.</p>
                     <figure>
                         <img src="images/whale.jpg" alt="crochet teal whale">
                         <figcaption>Stuffed whale for a baby gift</figcaption>
                     </figure>
+                </div>
             </section>
             <section>
-                <a name="gifts"></a>
-                <h2>Gifts</h2>
-                <p>These are things I made that are outside my usual crafting areas, but super fun anyway. I love when I get the chance to learn something new and then someone actually appreciates it.</p>
+                <h2>Gifts<a name="gifts"></a></h2>
+                <p class="projtype">These are things I made that are outside my usual crafting areas, but super fun anyway. I love when I get the chance to learn something new and then someone actually appreciates it.</p>
+                <div class="color1">
                 <h3>Mother's Day Card</h3>
                     <figure>
                         <img src="images/md_card.jpg" alt="yellow rose greeting card">
                         <figcaption>My mom loves yellow roses so I made this for her for Mother's Day</figcaption>
                     </figure>
+                </div>
+                <div class="color2">
                 <h3>Nikola Tesla Wood-Burned Cork Trivet</h3>
                     <figure>
                         <img src="images/trivet.jpg" alt="wood burned trivet showing Tesla">
                         <figcaption>Christmas gift for my brother who loves weird random things with no reasonable explanation</figcaption>
                     </figure>
+                </div>
+                <div class="color1">
                 <h3>Baby Silhouette Frames</h3>
                     <figure>
                         <img src="images/silhouette_frames.jpg" alt="framed silhouettes of baby faces">
-                        <figcaption>Two nephew's heads in silhouette for their moms</figcaption>
+                        <figcaption>Two nephew's heads in silhouette for their moms. Look at the little curls!</figcaption>
                     </figure>
+                </div>
             </section>
         </article>
     </main>
